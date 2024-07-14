@@ -79,4 +79,4 @@ yarn-error.log
 
 debug.keystore
 android/app/release/app-release.aab
-eVault/*
+ReactNativeApp/android/app/release/app-release.aab

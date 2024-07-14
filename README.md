@@ -6,7 +6,7 @@ eVault Wallet: Batch transactions, optimized savings, and seamless card payments
 
 ## Fast Links:
 
-WALLET CODE: [CODE](./eVault/)
+WALLET CODE: [CODE](./ReactNativeApp/)
 
 PLAYSTORE: [LINK](https://play.google.com/store/apps/details?id=com.altaga.evault)
 
@@ -30,13 +30,13 @@ eVault is a blockchain wallet and platform that empowers undeserved communities 
 
 ## Wallet:
 
-Our main screen is our Main Account, which is a traditional wallet to manage our assets. All balances and coins are in **Mainnet** and the code for this screen is as follows. [CODE](./eVault/src/screens/main/tabs/tab1.js)
+Our main screen is our Main Account, which is a traditional wallet to manage our assets. All balances and coins are in **Mainnet** and the code for this screen is as follows. [CODE](./ReactNativeApp/src/screens/main/tabs/tab1.js)
 
 <img src="https://i.ibb.co/8mPt5b8/Vlcsnap-2024-07-14-13h38m36s286.png" width="32%">
 
 ## Send:
 
-This screen is important and allows us to make simple or batch transfers from our wallet. And the code for this screen is the following. [CODE](./eVault/src/screens/sendWallet/sendWallet.js)
+This screen is important and allows us to make simple or batch transfers from our wallet. And the code for this screen is the following. [CODE](./ReactNativeApp/src/screens/sendWallet/sendWallet.js)
 
 <img src="https://i.ibb.co/cXnNgw7/Vlcsnap-2024-07-14-14h48m46s491.png" width="32%">
 
@@ -44,25 +44,25 @@ It should be remembered that if the Savings account is active, one more transact
 
 ## Receive:
 
-With this screen, you can easily show your Wallet to receive funds, whether Aptos or Coins y el codigo de esta pantalla es el siguiente. [CODE](./eVault/src/screens/depositWallet/depositWallet.js) 
+With this screen, you can easily show your Wallet to receive funds, whether Aptos or Coins y el codigo de esta pantalla es el siguiente. [CODE](./ReactNativeApp/src/screens/depositWallet/depositWallet.js) 
 
 <img src="https://i.ibb.co/0Y6tb4p/Vlcsnap-2024-07-14-14h48m51s570.png" width="32%">
 
 ## Payment: 
 
-In this tab we intend to make it the same as using a traditional POS, this allows us to enter the amount to be charged in American dollars and to be able to make the payment with one of our virtual cards. Y el codigo de esta pantalla es el siguiente. [CODE](./eVault/src/screens/paymentWallet/paymentWallet.js)
+In this tab we intend to make it the same as using a traditional POS, this allows us to enter the amount to be charged in American dollars and to be able to make the payment with one of our virtual cards. Y el codigo de esta pantalla es el siguiente. [CODE](./ReactNativeApp/src/screens/paymentWallet/paymentWallet.js)
 
 <img src="https://i.ibb.co/qjgrhTT/Vlcsnap-2024-07-14-14h48m59s933.png" width="32%"> <img src="https://i.ibb.co/FhkG57j/Vlcsnap-2024-07-14-14h48m56s129.png" width="32%">
 
 ## Savings:
 
-The savings account is a Non Custodial Wallet which allows us to have savings based on protocols. We will explain these protocols a little later. However, on this screen you can withdraw the savings according to the defined date and the code on this screen is the next. [CODE](./eVault/src/screens/main/tabs/tab2.js)
+The savings account is a Non Custodial Wallet which allows us to have savings based on protocols. We will explain these protocols a little later. However, on this screen you can withdraw the savings according to the defined date and the code on this screen is the next. [CODE](./ReactNativeApp/src/screens/main/tabs/tab2.js)
 
 <img src="https://i.ibb.co/8XLF8Gm/Vlcsnap-2024-07-14-14h49m04s628.png" width="32%"> <img src="https://i.ibb.co/56TZBD7/Vlcsnap-2024-07-14-14h49m19s826.png" width="32%"> <img src="https://i.ibb.co/qBr2zTb/Vlcsnap-2024-07-14-14h49m15s612.png" width="32%">
 
 ### Savings Protocol:
 
-- Balanced Protocol, this protocol performs a weighted rounding according to the amount to be paid in the transaction, so that the larger the transaction, the greater the savings, in order not to affect the user. Y el codigo de esta funcion es el siguiente. [CODE](./eVault/src/utils/utils.js)
+- Balanced Protocol, this protocol performs a weighted rounding according to the amount to be paid in the transaction, so that the larger the transaction, the greater the savings, in order not to affect the user. Y el codigo de esta funcion es el siguiente. [CODE](./ReactNativeApp/src/utils/utils.js)
 
         export function balancedSavingToken(number, usd1, usd2) {
             const balance = number * usd1;
@@ -91,7 +91,7 @@ The savings account is a Non Custodial Wallet which allows us to have savings ba
             return new Decimal(amount).sub(new Decimal(balance)).div(usd2).toNumber();
         }
 
-- Percentage protocol, unlike the previous protocol, this one aims to always save a percentage selected in the UI. Y el codigo de esta funcion es el siguiente. [CODE](./eVault/src/utils/utils.js)
+- Percentage protocol, unlike the previous protocol, this one aims to always save a percentage selected in the UI. Y el codigo de esta funcion es el siguiente. [CODE](./ReactNativeApp/src/utils/utils.js)
 
         export function percentageSaving(number, percentage) {
             return number * (percentage / 100);
@@ -99,7 +99,7 @@ The savings account is a Non Custodial Wallet which allows us to have savings ba
 
 ## Cards:
 
-Finally, in the cards section, we can create a virtual card, which will help us make payments without the need for our wallet directly with a physical card in any POS terminal with eVault. And the code for this screen is the following. [CODE](./eVault/src/screens/main/tabs/tab3.js)
+Finally, in the cards section, we can create a virtual card, which will help us make payments without the need for our wallet directly with a physical card in any POS terminal with eVault. And the code for this screen is the following. [CODE](./ReactNativeApp/src/screens/main/tabs/tab3.js)
 
 <img src="https://i.ibb.co/19xwk9R/Vlcsnap-2024-07-14-14h49m24s924.png" width="32%"> <img src="https://i.ibb.co/Yypw7nY/Vlcsnap-2024-07-14-14h49m31s080.png" width="32%">
 
