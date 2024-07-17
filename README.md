@@ -16,7 +16,7 @@ VIDEO DEMO: [VIDEO](https://youtu.be/TrMtGBml1pA)
 
 <img src="https://i.ibb.co/k8GgwhX/e-Vault-drawio.png">
 
-- Main Account: Within the scheme you can see that we have our main wallet, which is a Non Custodial Wallet, to which you will have to save its mnemonic at the time of its creation.
+- Main Account: Within the schematics you can see that we have our main wallet, which is a Non Custodial Wallet, to which you will have to save its mnemonic at the time of its creation.
 
 - Savings Account: This wallet, like the previous one, is a Non Custodial Wallet, which will save the savings on each transaction according to the chosen savings protocol.
 
@@ -50,7 +50,7 @@ With this screen, you can easily show your Wallet to receive funds, whether Apto
 
 ## Payment: 
 
-In this tab we intend to make it the same as using a traditional POS, this allows us to enter the amount to be charged in American dollars and to be able to make the payment with one of our virtual cards. Y el codigo de esta pantalla es el siguiente. [CODE](./ReactNativeApp/src/screens/paymentWallet/paymentWallet.js)
+In this tab we intend to make it the same as using a traditional POS, this allows us to enter the amount to be charged in American dollars and to be able to make the payment with one of our virtual cards. And this is the function code: [CODE](./ReactNativeApp/src/screens/paymentWallet/paymentWallet.js)
 
 <img src="https://i.ibb.co/qjgrhTT/Vlcsnap-2024-07-14-14h48m59s933.png" width="32%"> <img src="https://i.ibb.co/FhkG57j/Vlcsnap-2024-07-14-14h48m56s129.png" width="32%">
 
@@ -62,7 +62,7 @@ The savings account is a Non Custodial Wallet which allows us to have savings ba
 
 ### Savings Protocol:
 
-- Balanced Protocol, this protocol performs a weighted rounding according to the amount to be paid in the transaction, so that the larger the transaction, the greater the savings, in order not to affect the user. Y el codigo de esta funcion es el siguiente. [CODE](./ReactNativeApp/src/utils/utils.js)
+- Balanced Protocol, this protocol performs a weighted rounding according to the amount to be paid in the transaction, so that the larger the transaction, the greater the savings, in order not to affect the user. And this is the function code: [CODE](./ReactNativeApp/src/utils/utils.js)
 
         export function balancedSavingToken(number, usd1, usd2) {
             const balance = number * usd1;
@@ -91,7 +91,7 @@ The savings account is a Non Custodial Wallet which allows us to have savings ba
             return new Decimal(amount).sub(new Decimal(balance)).div(usd2).toNumber();
         }
 
-- Percentage protocol, unlike the previous protocol, this one aims to always save a percentage selected in the UI. Y el codigo de esta funcion es el siguiente. [CODE](./ReactNativeApp/src/utils/utils.js)
+- Percentage protocol, unlike the previous protocol, this one aims to always save a percentage selected in the UI. And this is the function code: [CODE](./ReactNativeApp/src/utils/utils.js)
 
         export function percentageSaving(number, percentage) {
             return number * (percentage / 100);
