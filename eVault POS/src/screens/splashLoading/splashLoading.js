@@ -32,7 +32,7 @@ class SplashLoading extends Component {
           publicKeySavings: publicKeySavings ?? BasePublicKey,
           publicKeyCard: publicKeyCard ?? BasePublicKey,
         });
-        this.props.navigation.navigate('Main');
+        this.props.navigation.navigate('Main'); // Lock
       } else {
         this.props.navigation.navigate('Setup');
       }
