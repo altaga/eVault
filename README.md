@@ -10,7 +10,7 @@ WALLET CODE: [CODE](./ReactNativeApp/)
 
 PLAYSTORE: [LINK](https://play.google.com/store/apps/details?id=com.altaga.evault)
 
-VIDEO DEMO: [VIDEO](https://youtu.be/TrMtGBml1pA)
+VIDEO DEMO: [VIDEO](https://www.youtube.com/watch?v=na6mEfhuo74)
 
 # System Diagrams:
 
