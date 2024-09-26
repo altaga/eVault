@@ -32,13 +32,13 @@ eVault is a blockchain wallet and platform that empowers undeserved communities 
 
 Our main screen is our Main Account, which is a traditional wallet to manage our assets. All balances and coins are in **Mainnet** and the code for this screen is as follows. [CODE](./ReactNativeApp/src/screens/main/tabs/tab1.js)
 
-<img src="https://i.ibb.co/8mPt5b8/Vlcsnap-2024-07-14-13h38m36s286.png" width="32%">
+<img src="./Images/wallet.png" width="32%">
 
 ## Send:
 
 This screen is important and allows us to make simple or batch transfers from our wallet. And the code for this screen is the following. [CODE](./ReactNativeApp/src/screens/sendWallet/sendWallet.js)
 
-<img src="https://i.ibb.co/cXnNgw7/Vlcsnap-2024-07-14-14h48m46s491.png" width="32%">
+<img src="./Images/send01.png" width="32%"> <img src="./Images/send02.png" width="32%">
 
 It should be remembered that if the Savings account is active, one more transaction will be added to the final transfer to our savings account. All this is very easy to do with Aptos, even if Mastercard is one of its clients. [2](#references).
 
@@ -46,13 +46,13 @@ It should be remembered that if the Savings account is active, one more transact
 
 With this screen, you can easily show your Wallet to receive funds, whether Aptos or Coins y el codigo de esta pantalla es el siguiente. [CODE](./ReactNativeApp/src/screens/depositWallet/depositWallet.js) 
 
-<img src="https://i.ibb.co/0Y6tb4p/Vlcsnap-2024-07-14-14h48m51s570.png" width="32%">
+<img src="./Images/recieve.png" width="32%">
 
 ## Payment: 
 
 In this tab we intend to make it the same as using a traditional POS, this allows us to enter the amount to be charged in American dollars and to be able to make the payment with one of our virtual cards. And this is the function code: [CODE](./ReactNativeApp/src/screens/paymentWallet/paymentWallet.js)
 
-<img src="https://i.ibb.co/qjgrhTT/Vlcsnap-2024-07-14-14h48m59s933.png" width="32%"> <img src="https://i.ibb.co/FhkG57j/Vlcsnap-2024-07-14-14h48m56s129.png" width="32%">
+<img src="./Images/card01.png" width="32%"> <img src="./Images/card02.png" width="32%"> 
 
 ## Savings:
 
