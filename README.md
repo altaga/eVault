@@ -58,7 +58,7 @@ In this tab we intend to make it the same as using a traditional POS, this allow
 
 The savings account is a Non Custodial Wallet which allows us to have savings based on protocols. We will explain these protocols a little later. However, on this screen you can withdraw the savings according to the defined date and the code on this screen is the next. [CODE](./ReactNativeApp/src/screens/main/tabs/tab2.js)
 
-<img src="https://i.ibb.co/8XLF8Gm/Vlcsnap-2024-07-14-14h49m04s628.png" width="32%"> <img src="https://i.ibb.co/56TZBD7/Vlcsnap-2024-07-14-14h49m19s826.png" width="32%"> <img src="https://i.ibb.co/qBr2zTb/Vlcsnap-2024-07-14-14h49m15s612.png" width="32%">
+<img src="./Images/saves01.png" width="32%"> <img src="./Images/saves02.png" width="32%"> <img src="./Images/saves03.png" width="32%">
 
 ### Savings Protocol:
 
@@ -101,7 +101,7 @@ The savings account is a Non Custodial Wallet which allows us to have savings ba
 
 Finally, in the cards section, we can create a virtual card, which will help us make payments without the need for our wallet directly with a physical card in any POS terminal with eVault. And the code for this screen is the following. [CODE](./ReactNativeApp/src/screens/main/tabs/tab3.js)
 
-<img src="https://i.ibb.co/19xwk9R/Vlcsnap-2024-07-14-14h49m24s924.png" width="32%"> <img src="https://i.ibb.co/Yypw7nY/Vlcsnap-2024-07-14-14h49m31s080.png" width="32%">
+<img src="./Images/cardd01.png" width="32%"> <img src="./Images/cardd02.png" width="32%">
 
 The function codes to create a card and make transactions with it are as follows.
 
