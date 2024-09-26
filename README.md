@@ -14,7 +14,7 @@ VIDEO DEMO: [VIDEO](https://www.youtube.com/watch?v=na6mEfhuo74)
 
 # System Diagrams:
 
-<img src="https://i.ibb.co/k8GgwhX/e-Vault-drawio.png">
+<img src="./Images/eVaultv2.png">
 
 - Main Account: Within the schematics you can see that we have our main wallet, which is a Non Custodial Wallet, to which you will have to save its mnemonic at the time of its creation.
 
