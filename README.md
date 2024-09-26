@@ -26,7 +26,7 @@ VIDEO DEMO: [VIDEO](https://www.youtube.com/watch?v=na6mEfhuo74)
 
 # Introduction:
 
-eVault is a blockchain wallet and platform that empowers undeserved communities through saving. Employing novel Blockchain technologies through Aptos such as Batch transactions and optimized savings. It also combines it with TradFi via seamless card payments.
+eVault is a blockchain wallet and platform that empowers underserved communities through saving. Employing novel Blockchain technologies through Aptos such as Batch transactions and optimized savings. It also combines it with TradFi via seamless card payments.
 
 ## Wallet:
 
