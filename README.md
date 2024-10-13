@@ -6,7 +6,7 @@ eVault Wallet: Batch transactions, optimized savings, and seamless card payments
 
 ## Fast Links:
 
-WALLET CODE: [CODE](./ReactNativeApp/)
+WALLET CODE: [CODE](./eVault/)
 
 PLAYSTORE: [LINK](https://play.google.com/store/apps/details?id=com.altaga.evault)
 
